@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('OpenType'); 
+}
+
+body {
+    background-color: rgb(132, 225, 172);
+    margin: 0px;
+}
+
+
+main {
+    background-color: white;
+    padding: 1px 0px 5px 0px;
+    margin: 0px 100px 10px 100px;
+    border: solid 2px rgba(0, 0, 0, 0.427);
+    border-radius: 10px;
+    box-shadow: 5px;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to top,#1a5c38, #38c979);
+}
+
+menu {
+    color: white;
+    text-align: left;
+    margin: 10px;
+    padding: 0px 0px 0px 0px;
+}
+
+menu > p {
+    padding: 5px;
+    margin-right: 50px;
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+header > p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+article{
+    margin: 10px;
+}
+
+article > h1 {
+    color: green;
+    font-size: 40px;
+    font-family: idroid;
+}
+
+article > p {
+    font-weight: 600;
+}
+article > h2 {
+    color: green;
+    background-image: linear-gradient(to right,#7fba7f, #ffffff);
+    font-family: idroid;
+}
+
+p > a {
+    color: green;
+    text-decoration: none;
+}
+
+article > p#imagem {
+    text-align: center;
+}
+
+article > p#imagem2 {
+    text-align: center;
+}
+
+article > p#imagem3 {
+    text-align: center;
+}
+
+article > p#video {
+    background-color: #1a5c38;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+div > ul > li > a{
+    color: black;
+    font-weight: 600;
+}
+
+li::before {
+    content: '✔';
+}
+
+li {
+    list-style: none;
+}
+
+article#artigo2 {
+    background-color: #c5ebd6;
+    padding: 0px 2px 5px 2px;
+    border-radius: 10px;
+}
+
+article > h2#extra {
+    background-color: #2FA866;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    margin: 10px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #1a5c38;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+footer > p {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}

@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    background-image:linear-gradient(to top, #4A1B2F, #7C4D61, #9F6F83);
+}
+
+main {
+    background-color: #360B1E;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+    border: black solid 5px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 34px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 34px;
+    color: black;
+    font-weight: 300;
+}
+
+a {
+    color: brown;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: tomato;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: lightcoral;
+}
+
