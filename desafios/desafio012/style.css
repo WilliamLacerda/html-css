@@ -10,6 +10,10 @@
     padding: 0px
 }
 
+html, body {
+    min-height: 100%;
+    background-color: silver;
+}
 
 header {
     background-color: black;
@@ -24,6 +28,7 @@ h1 {
     padding: 10px;
     font-family: 'Passion One', sans-serif;
     font-weight: 900;
+    font-variant: small-caps;
 }
 
 aside {
@@ -39,6 +44,23 @@ header > aside > a {
 
 header > aside > a:hover {
     text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    text-align: justify;
+    padding-left: 40px;
+    font-size: 30px;
+    font-family: 'Sriracha', cursive;
+    font-weight: bold;
+    font-style: italic;
+}
+
+section.conteudo {
+    background-color: white;
+    color: black;
 }
 
 section.imagem1 {
@@ -60,8 +82,8 @@ section.imagem2 {
 section.imagem1 > p {
     color: white;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.541);
-    height: 300px;
+    background-color: rgba(0, 0, 0, 0.550);
+    height: 400px;
     width: 400px;
     top: 100px;
     left: 20px;
@@ -70,21 +92,11 @@ section.imagem1 > p {
 section.imagem2 > p {
     color: white;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.522);
-    height: 300px;
+    background-color: rgba(0, 0, 0, 0.550);
+    height: 410px;
     width: 400px;
     top: 100px;
     left: 20px;
-}
-
-p {
-    text-align: justify;
-    padding: 40px;
-    font-size: 30px;
-    font-family: 'Sriracha', cursive;
-    font-weight: bold;
-    font-style: italic;
-
 }
 
 footer {
