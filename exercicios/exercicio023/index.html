@@ -11,16 +11,20 @@
 
         table {
             width: 500px;
+            height: 500px;
             border-collapse: collapse;
-        }
-
-        tr {
-            background-color: bisque;
         }
 
         td {
             border: 2px solid black;
             padding: 5px;
+            text-align: center; /*Alinhamento horintal*/
+
+            vertical-align: middle; /*Alinhamento vertical*/
+        }
+
+        .numero {
+            text-align: right;
         }
     </style>
     </head>
@@ -35,27 +39,27 @@
         -->
     <table>
         <tr> <!--Primeira linha-->
-            <td>A1</td> 
+            <td class="numero">A1</td> 
             <td>B1</td> 
             <td>C1</td>
         </tr>
 
         <tr> <!--Segunda linha-->
             <td>A2</td>
-            <td>B2</td>
+            <td class="numero">B2</td>
             <td>C2</td>
         </tr>
 
         <tr> <!--Terceira linha-->
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
 
         <tr> <!--Quarta linha-->
             <td>A4</td>
             <td>B4</td>
-            <td>C4</td>
+            <td class="numero">C4</td>
         </tr>
     </table>
 </body>
