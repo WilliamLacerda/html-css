@@ -23,10 +23,9 @@ header {
 }
 
 h1 {
-    display: auto;
-    font-size: 100px;
+    font-size: 7.5vw;
     padding: 10px;
-    font-family: 'Passion One', sans-serif;
+    font-family: 'Passion One', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
     font-variant: small-caps;
 }
@@ -52,8 +51,8 @@ section {
     line-height: 2em;
     text-align: justify;
     padding-left: 40px;
-    font-size: 30px;
-    font-family: 'Sriracha', cursive;
+    font-size: 4vw;
+    font-family: 'Sriracha', cursive, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-style: italic;
 }
@@ -82,9 +81,8 @@ section.imagem2 {
 section.imagem1 > p {
     color: white;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.550);
-    height: 400px;
-    width: 400px;
+    background-color: rgba(0, 0, 0, 0.400);
+    display: inline-block;
     top: 100px;
     left: 20px;
 }
@@ -92,9 +90,8 @@ section.imagem1 > p {
 section.imagem2 > p {
     color: white;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.550);
-    height: 410px;
-    width: 400px;
+    background-color: rgba(0, 0, 0, 0.400);
+    display: inline-block;
     top: 100px;
     left: 20px;
 }
