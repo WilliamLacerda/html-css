@@ -55,6 +55,11 @@ section {
     font-family: 'Sriracha', cursive, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-style: italic;
+    box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.500);
+}
+
+section > p {
+    padding-bottom: 1.5em;
 }
 
 section.conteudo {
@@ -62,38 +67,26 @@ section.conteudo {
     color: black;
 }
 
-section.imagem1 {
+section#imagem1{
     background-image: url('imagens/background001.jpg');
-    background-size: 100vh;
+    background-position: right, center;
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+    background-attachment: fixed;
 }
 
-section.imagem2 {
+section#imagem2 {
     background-image: url('imagens/background002.jpg');
-    background-size: 100vh;
+    background-position: right, center;
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+    background-attachment: fixed;
 }
 
-section.imagem1 > p {
+section.imagem > p {
     color: white;
     position: relative;
     background-color: rgba(0, 0, 0, 0.400);
     display: inline-block;
-    top: 100px;
-    left: 20px;
-}
-
-section.imagem2 > p {
-    color: white;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.400);
-    display: inline-block;
-    top: 100px;
-    left: 20px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.500);
 }
 
 footer {
