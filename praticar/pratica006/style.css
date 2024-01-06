@@ -77,7 +77,7 @@ body {
 
 }
 main {
-    max-width: 1000px;
+    max-width: 1200px;
     min-width: 300px;
     background-color: black;
     margin: auto;
@@ -134,8 +134,8 @@ h2 {
     font-family: var(--font9);
     font-weight: lighter;
     text-align: center;
-    color: ;
-    background-color: rgba(0, 0, 0, 0.500);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.600);
 }
 
 p {
@@ -146,20 +146,78 @@ p {
     padding: 10px;
     font-weight: lighter;
     text-align: justify;
+    color: white;
 }
 
 div {
-    max-width: 1000px;
+    max-width: 1200px;
     min-width: 300px;
-    height: 800px;
-    background-size: 90vh;
+    height: 1000px;
+    background-size: 80vh;
     background-repeat: no-repeat;
     background-position: bottom,center;
 }
 
 div > p {
-    font-family: var(--font11);
-    background-color: rgba(0, 0, 0, 0.500);
+    font-family: var(--font4);
+    background-color: rgba(0, 0, 0, 0.600);
+    font-size: 24px;
+}
+
+strong.verde {
+    color: var(--verde3);
+}
+
+strong.amarelo {
+    color: var(--amarelopastel);
+}
+
+strong.vermelho {
+    color: var(--vermelhopastel);
+}
+
+strong.azul {
+    color: var(--azul2);
+}
+
+a.verde {
+    color: var(--verdepastel);
+    text-decoration: none;
+}
+
+a.verde:hover {
+    color: var(--verde4);
+    text-decoration: underline;
+}
+
+a.amarelo {
+    color: var(--amarelo2);
+    text-decoration: none;
+}
+
+a.amarelo:hover {
+    color: var(--amarelo4);
+    text-decoration: underline;
+}
+
+a.vermelho {
+    color: var(--vermelho2);
+    text-decoration: none;
+}
+
+a.vermelho:hover {
+    color: var(--vermelho3);
+    text-decoration: underline;
+}
+
+a.azul {
+    color: var(--azul0);
+    text-decoration: none;
+}
+
+a.azul:hover {
+    color: var(--azul2);
+    text-decoration: underline;
 }
 
 div.flor1 {
@@ -175,7 +233,6 @@ div.flor2 {
 div.flor3 {
     background-image: url("ImagensDasFlores/crisantemo-verde.jpg");
     background-attachment: fixed;
-    background-position: center,center;
 }
 
 div.flor4 {
@@ -261,6 +318,10 @@ div.flor19 {
 div.flor20 {
     background-image: url("ImagensDasFlores/iris-azul.jpg");
     background-attachment: fixed;
+}
+
+div#container{
+    overflow: auto;
 }
 
 table {
