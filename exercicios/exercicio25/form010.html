@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>continuação de exercício</title>
+</head>
+<body>
+    <h1>continuação usando output</h1>
+    <form action="cadastro.php">
+
+        <p>
+            <label for="Ano">Em que ano você nasceu?</label>
+            <input type="number" name="Numero" id="Ano" min="1900" max="2024" oninput="calcularIdade()">
+        </p>
+
+        <P>
+            <label for="Idade">A sua idade é:</label>
+            <output id="Idade">0</output>
+        </P>
+
+        <P>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </P>
+    </form>
+
+    <script>
+        function calcularIdade() {
+            let atual = new Date().getFullYear()
+            Idade.innerHTML = Number(atual) - Number(Ano.value)
+        }
+    </script>
+</body>
+</html>

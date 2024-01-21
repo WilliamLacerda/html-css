@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parte 8 do exercicio de formulários</title>
+</head>
+<body>
+    <h1>Exemplo com output</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="Numero1">Número 1:</label>
+            <input type="number" name="numero1" id="Numero1" min="0" max="100" required oninput="Soma.innerHTML = Number(Numero1.value) + Number(Numero2.value)">
+        </p>
+
+        <p>
+            <label for="Numerp2">Número 2:</label>
+            <input type="number" name="numero2" id="Numero2" min="0" max="100" required oninput="Soma.innerHTML = Number(Numero1.value) + Number(Numero2.value)">
+        </p>
+
+        <p>
+            <label for="Soma">Soma</label>
+            <output name="soma" id="Soma">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
