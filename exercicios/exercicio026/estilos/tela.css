@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* estilos para a tela*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: thistle;
+}
+
+h1 {
+    text-align: center;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: lightpink;
+}
+
+menu li {
+    background-color: violet;
+    display: inline-block;
+    padding: 15px;
+}
+
+article {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
