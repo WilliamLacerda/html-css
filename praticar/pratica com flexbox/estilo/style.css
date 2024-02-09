@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+.container {
+    background-color: blueviolet;
+    height: 500px;
+    display: flex;
+
+    flex-direction: row;
+    /* o flex-direction serve para mudar a orientação dos itens de colunas ou linhas
+    valores para o flex direction:display:
+    column | row | row-reverse | column-reverse
+    row vem como padrão no display: flex para ficar em ortientçaõ de colunas */
+
+    flex-wrap: nowrap;
+    /* o flex-wrap serve para fazer com que os itens quebre de linha ou não
+    valores para o flex-wrap:
+    nowrap | wrap | wrap-reverse
+    o nowrap vem como padrão para não quebrar a linha */
+
+    /*flex-flow:
+     o flex-flow é uma forma shorthand para unir o flex-direction e o flex-wrap
+    valores do flex-flow são os mesmos que os dos flex-direction e o flex-wrap
+    primeiro vem o flex-direction e depois o flex-wrap */
+
+    justify-content: flex-start;
+    /* o justify-content serve para alinhar em direçao horizontal
+    valores do justify-content:
+    flex-start | flex-end | center | space-between | space-around
+    o flex-start vem como padrão para alinhar ao inicio da coluna esquerda
+    space-between: cria um espaçamento entre os itens
+    space-around: faz parecido com o space-between, mas tendo espaçamentos iguais*/
+
+    align-items: stretch;
+    /* o alugn-items serve para fazer alinhamentos verticais
+    valores do align-items: 
+    flex-start | flex-end | center | baseline
+    o stretch vem por padrão para que os itens fiquem igualmente do mesmo tamanho
+    flex-start: faz com que os itens se alinhe no alto
+    flex-end: faz com que os itens se alinhe em baixo
+    baseline: faz alinhamento vertical baseado nos conteúdos de cada item */
+
+    align-content: flex-start;
+    /*o align-content também faz alinhamentos verticais, mas só faz quando estiver em quebra do wrap
+    valores do align-content: 
+    flex-start | flex-end | center | space-between | space-around */
+}
+
+.item {
+    background-color: indigo;
+    color: violet;
+    padding: 20px;
+    margin: 5px;
+    height: 30px;
+
+    flex-grow: 1;
+    /* o flex-grow serve para mexer na largura dos itens e pode ser de forma individual também
+    valor padrão do flex-grow é 0 */
+    
+    flex-basis: 300px;
+    /* o flex-basis serve para ajustar a largura inicial base do item */
+    
+    flex-shrink: 1;
+
+    flex: 1 1 300px;
+    /*o flex é a forma shorthand para flex-grow, flex-shrink e flex-basis
+    a ordem para se usa é: flex-grow flex-shrink flex-basis*/
+}
+
+#article-01 {
+    /*order:
+    o order serve para poder organizar os itens da forma que quiser */
+
+    flex-shrink: 3;
+    /* o flex-shrink faz com que o item diminua de tamanho de forma igualmente ao tamanho total dos outros itens*/
+}
+#artcile-02 {
+    /*align-self: auto;
+    o align-self faz com que faça um alinhamento indivual tanto em row ou column, em row o alinhamento vai ser em vertical e em column vai ser alinhamento em horizontal 
+    valores para o align-self:
+    flex-star | flex-end | center | stretch | baseline 
+    valor padrão de alugn-self vem em auto*/
+    
+}
+#article-03 {
+}
+#artcile-04 {
+
+}
