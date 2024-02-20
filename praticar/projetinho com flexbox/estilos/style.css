@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Protest Revolution', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+header {
+    background-color: thistle;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+li {
+    list-style: none;
+}
+
+header img {
+    width: 200px;
+}
+
+header nav {
+    display: flex;
+}
+
+header li a {
+    color: darkgoldenrod;
+}
+
+header li {
+    margin: 0 15px;
+}
+
+header li:first-child {
+    margin-left: 0;
+}
+
+header li:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+
+    header img {
+        margin-bottom: 10px;
+    }
+}
+
+
+.hero {
+    background-image: url("../imagens/hotel.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: darkgoldenrod;
+}
+
+.hero h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: darkgoldenrod;
+}
+
+.hero .btn {
+    background-color: thistle;
+    border-radius: 10px;
+    color: darkgoldenrod;
+    padding: 10px 50px;
+}
+
+@media (max-width: 700px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero h3 {
+        font-size: 1.5em;
+    }
+
+    header img {
+        margin-bottom: 10px;
+    }
+}
+
+
+.hotel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.hotel h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    background-color: thistle;
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+.hotel p {
+    max-width: 800px;
+    margin-bottom: 30px;
+    color: darkgoldenrod;
+    background-color: thistle;
+    text-align: center;
+}
+
+.hotel hr {
+    width: 200px;
+    height: 2px;
+    margin-bottom: 70px;
+    background-color: thistle;
+    border: none;
+}
+
+.hotel .grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hotel .grid li {
+    height: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+.hotel .grid li.small {
+    flex-basis: 40%;
+}
+
+.hotel .grid li.large {
+    flex-basis: 60%;
+}
+
+@media (max-width: 700px) {
+    .hotel .grid li.small {
+        flex-basis: 100%;
+    }
+}
+
+
+.caracteristicas {
+    display: flex;
+    background-color: thistle;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.caracteristicas h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+.caracteristicas p {
+    max-width: 800px;
+    margin-bottom: 30px;
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+.caracteristicas hr {
+    width: 200px;
+    height: 2px;
+    margin-bottom: 70px;
+    border: none;
+}
